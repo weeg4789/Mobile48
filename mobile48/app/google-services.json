@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "495015475655",
+    "firebase_url": "https://mobile-5c8e8.firebaseio.com",
+    "project_id": "mobile-5c8e8",
+    "storage_bucket": "mobile-5c8e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495015475655:android:b578d5d0b4c0f2f7",
+        "android_client_info": {
+          "package_name": "com.weeg.mobile48"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495015475655-ighvqoi5qve7tpnrkioea94iqvjumaat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weeg.mobile48",
+            "certificate_hash": "ea165619d2cb69ebb1d5ebea227c5a47b87ccde8"
+          }
+        },
+        {
+          "client_id": "495015475655-ckvnlrjhs964ium23go58lipm597d1a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZAnx5n70JdUuzb8L5Zf_LFMUkgKpGfWI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495015475655-ckvnlrjhs964ium23go58lipm597d1a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
