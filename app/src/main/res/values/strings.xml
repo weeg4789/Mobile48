@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mobile48</string>
+    <string name="name">Your Name</string>
+    <string name="lastname">Your LastName</string>
+</resources>
