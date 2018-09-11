@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginHorizontal="25dp">
 
         <EditText
@@ -18,21 +18,22 @@
             android:layout_height="wrap_content" />
 
         <EditText
-            android:id="@+id/Editlname"
+            android:id="@+id/Editpass"
             android:layout_below="@id/Editname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/lastname"
-            android:layout_marginTop="10dp"/>
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"/>
 
         <Button
             android:layout_marginTop="20dp"
-            android:layout_below="@id/Editlname"
             android:id="@+id/Blogin"
-            android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"/>
+            android:layout_below="@+id/Editpass"
+            android:layout_centerHorizontal="true"
+            android:text="Login" />
 
         <Button
             android:id="@+id/Bregis"
