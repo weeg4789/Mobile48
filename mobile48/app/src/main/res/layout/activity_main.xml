@@ -26,12 +26,20 @@
             android:layout_marginTop="10dp"
             android:inputType="textPassword"/>
 
+        <EditText
+            android:layout_below="@+id/Editpass"
+            android:id="@+id/Editemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Your E-mail"/>
+
         <Button
             android:layout_marginTop="20dp"
             android:id="@+id/Blogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/Editpass"
+            android:layout_below="@+id/Editemail"
             android:layout_centerHorizontal="true"
             android:text="Login" />
 
@@ -43,6 +51,7 @@
             android:layout_below="@id/Blogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
     </RelativeLayout>
 
 </LinearLayout>

@@ -44,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
         log.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gologin = new Intent(MainActivity.this,Activity3.class);
-                startActivity(gologin);
                 login();
             }
         });
@@ -54,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
     public void login(){
         String Name = ETname.getText().toString();
         final String Pass = pass.getText().toString();
+
 
 
             ref.child(Name).addValueEventListener(new ValueEventListener() {
